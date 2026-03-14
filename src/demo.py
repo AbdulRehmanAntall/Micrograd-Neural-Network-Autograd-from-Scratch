@@ -1,6 +1,6 @@
 import math
 import matplotlib.pyplot as plt
-from src.engine import Value
+from .engine import Value
 
 # -------------------------------
 # Example: Function plotting
