@@ -23,6 +23,8 @@ This project serves as an educational tool to understand how modern deep learnin
 
 ```
 Micrograd/
+├── Notebooks/
+│   └── MicroGrad_(Neural_Network_from_Scratch).ipynb  # Original learning notebook
 ├── src/
 │   ├── engine.py      # Core Value class with autograd engine
 │   ├── nn.py          # Neural network components (Neuron, Layer, MLP)
@@ -31,6 +33,16 @@ Micrograd/
 ├── requirements.txt   # Dependencies
 └── README.md         # This file
 ```
+
+## 📓 Notebook & Python Scripts
+
+- **`MicroGrad_(Neural_Network_from_Scratch).ipynb`** – Original notebook followed along for learning purposes. This interactive notebook contains step-by-step explanations and experiments from the tutorial.
+
+- **`.py` scripts** – Production-ready Python code that can be run directly:
+  - `src/engine.py` – Core autograd engine
+  - `src/nn.py` – Neural network components
+  - `src/demo.py` – Visualization examples
+  - `main.py` – Complete training example
 
 ## 🏗️ Architecture
 
